@@ -68,8 +68,9 @@ class GroceriesTableViewController: UITableViewController {
         let seafood = (name: "crab legs", aisle: 1, category: "seafood", count: 8)
         let rice = (name: "Minute Rice", aisle: 2, category: "dry rice and beans", count: 62)
         let turkey = (name: "Boar's Head turkey", aisle: 9, category: "deli", count: 4)
+        let milk = (name: "Whole Milk", aisle: 10, category: "dairy", count: 8)
         
-        groceries.append(contentsOf: [carrots, soup, cereal, pringles, tostitos, seafood, rice, turkey])
+        groceries.append(contentsOf: [carrots, soup, cereal, pringles, tostitos, seafood, rice, turkey, milk])
     }
     
     private func determineTotalCount() -> String {
